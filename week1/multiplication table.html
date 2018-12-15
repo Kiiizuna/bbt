@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>multiplication table</title>
+	<script src='hua3.js'></script>
+</head>
+<body>
+	<table class="tableContainer"></table>
+</body>
+
+
+
+<script>
+	var container = e('.tableContainer')
+	var template = function(i, j) {
+		var res = i * j
+		var t = `
+				${i} * ${j} = ${res}
+		`
+		return t
+	}
+
+	var templateRow = function() {
+
+	}
+
+
+	window.onload = function() {
+		for (var i = 0; i < Things.length; i++) {
+			Things[i]
+		}
+
+
+
+		var all = template(1, 1)
+		appendHTML(container, all)
+	}
+
+</script>
+</html>
