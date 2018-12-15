@@ -5,6 +5,12 @@
 	<title>float layout</title>
 </head>
 <style>
+	.clearfix::after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+
 	div {
 		text-align: center;
 	}
@@ -38,7 +44,7 @@
 	#b-2 {
 		width: 100px;
 		height: 100px;
-		background-color: lightblue;
+		background-color: lightgreen;
 	}
 	#b-3 {
 		width: 100px;
@@ -65,9 +71,75 @@
 		height: 100px;
 		background-color: lightblue;
 	}
+	#d-1 {
+		width: 100px;
+		height: 200px;
+		background-color: lightpink;
+	}
+	#d-2 {
+		width: 100px;
+		height: 200px;
+		background-color: lightblue;
+	}
+	#d-3 {
+		width: 200px;
+		height: 100px;
+		background-color: pink;
+	}
+	#e-1 {
+		width: 100px;
+		height: 100px;
+		background-color: lightgreen;
+	}
+	#e-2 {
+		width: 100px;
+		height: 100px;
+		background-color: lightblue;
+	}
+
+
+
+
+	#container-2 {
+		width: 600px;
+		margin: 0 auto;
+	}
+	#container-2 div {
+		float: left;
+	}
+	#f-1 {
+		width: 100px;
+		height: 100px;
+		background-color: lightgreen;
+	}
+	#f-2 {
+		width: 100px;
+		height: 100px;
+		background-color: lightblue;
+	}
+	#f-3 {
+		width: 100px;
+		height: 100px;
+		background-color: pink;
+	}	
+	#f-4 {
+		width: 100px;
+		height: 100px;
+		background-color: lightblue;
+	}
+	#f-5 {
+		width: 100px;
+		height: 100px;
+		background-color: lightgreen;
+	}
+	#f-6 {
+		width: 100px;
+		height: 100px;
+		background-color: pink;
+	}			
 </style>
 <body>
-	<div id='container-1'>
+	<div id='container-1' class="clearfix">
 		<div id='a-1'>100*100</div>
 		<div id="a-2">200*100</div>
 		<div id="a-3">100*100</div>
@@ -78,6 +150,20 @@
 		<div id="c-1">100*100</div>
 		<div id="c-2">100*100</div>
 		<div id="c-3">100*100</div>
+		<div id="d-1">100*200</div>
+		<div id="d-2">100*200</div>
+		<div id="d-3">200*100</div>
+		<div id="e-1">100*100</div>
+		<div id="e-2">100*100</div>
+	</div>
+	<div id="container-2">
+		<div id='f-1'>100*100</div>
+		<div id="f-2">100*100</div>
+		<div id="f-3">100*100</div>
+		<div id="f-4">100*100</div>
+		<div id="f-5">100*100</div>
+		<div id="f-6">100*100</div>
+
 	</div>
 </body>
 </html>
