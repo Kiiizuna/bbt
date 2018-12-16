@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>triangle</title>
+	<script src="hua3.js"></script>
+</head>
+<style>
+	.container {
+		text-align: center;
+		line-height: 1;
+	}
+</style>
+<body>
+	<div class="container">		
+	</div>
+	<script>
+		var template = function() {
+			var t = `
+				*
+			`
+			return t 
+		}
+
+		var br = function() {
+			var t = `
+				</br>
+			`
+			return t
+		}
+
+		var insert = function() {
+			var container = e('.container')
+			var res = template()
+			var brL = br()
+			for (var i = 0; i < 10; i++) {
+				for (var j = 0; j < 10 - i; j++) {
+					appendHTML(container, res)
+				}
+				appendHTML(container, brL)
+			}			
+		}
+
+		var __main = function() {
+			insert()
+		}
+		__main()
+
+	</script>
+</body>
+</html>
