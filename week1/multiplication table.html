@@ -8,34 +8,60 @@
 <body>
 	<table class="tableContainer"></table>
 </body>
-
-
-
 <script>
-	var container = e('.tableContainer')
+
+	// var container = e('.tableContainer')
+	// td 标签模板
 	var template = function(i, j) {
 		var res = i * j
 		var t = `
-				${i} * ${j} = ${res}
+			<td>
+				${j} * ${i} = ${res}
+			</td>
 		`
 		return t
 	}
 
-	var templateRow = function() {
+	// tr 标签模板
+	var templateRow = function(i) {
+		var t = `
+			<tr class="tr-${i}">
 
+			</tr>
+		`
+		return t 
 	}
 
+	// for (var i = 0; i < 10; i++) {
+	// 	// input tr here
+	// 	var rowTemplate = templateRow()
+	// 	appendHTML(container, rowTemplate)
+	// 	log('rowTemplate', rowTemplate)
+	// 	for (var j = 1; j <= i; j++) {
+	// 		var tdRow = template(i, j)
+	// 		var selector = '.tr-' + i
+	// 		var rowParent = e(selector)
+	// 		appendHTML(rowParent, tdRow)
+	// 	}
+	// }
 
-	window.onload = function() {
-		for (var i = 0; i < Things.length; i++) {
-			Things[i]
-		}
-
-
-
-		var all = template(1, 1)
-		appendHTML(container, all)
+	var __main = function() {
+		var container = e('.tableContainer')
+		for (var i = 0; i < 10; i++) {
+			// input tr here
+			var rowTemplate = templateRow(i)
+			appendHTML(container, rowTemplate)
+			log('rowTemplate', rowTemplate)
+			for (var j = 1; j <= i; j++) {
+				var tdRow = template(i, j)
+				var selector = '.tr-' + i
+				var rowParent = e(selector)
+				appendHTML(rowParent, tdRow)
+			}
+		}		
 	}
+
+	__main()
 
 </script>
 </html>
