@@ -1,1 +1,5 @@
 # bbt
+
+[浮动布局](https://kiiizuna.github.io/bbt/week1/float%20layout.html)
+[99乘法表](https://kiiizuna.github.io/bbt/week1/multiplication%20table.html)
+[倒三角](https://kiiizuna.github.io/bbt/week1/triangle.html)
