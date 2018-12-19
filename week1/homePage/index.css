@@ -1,0 +1,163 @@
+ul li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main {
+	width: 980px;
+	background: url(images/background.png) no-repeat center;
+	/*border:1px green solid;*/
+	margin: 0 auto;
+}
+
+.header {
+	position: relative;
+	width: 980px;
+	height: 90px;
+	background-color: white;
+}
+
+.logo {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+
+.line {
+	height: 4px;
+	width: 980px;
+	border: 1px red solid;
+	background-color: #edbec3;
+}
+nav {
+	height: 36px;
+	background: -webkit-linear-gradient(top, #8ac6e2, #035985);
+}
+.ul-1 {
+	margin-top: -1px;
+	/*border: 1px black solid;*/
+}
+.ul-1 li {
+	float: left;
+	line-height: 30px;
+	text-align: center;
+	margin: auto;
+}
+
+.ul-1 li a {
+	width: 88px;
+	display: block;
+	margin: 0 3px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.ul-1 li:hover {
+	background:-webkit-linear-gradient(top, #e9abb1, #bb2939);
+	border: 1px solid red;
+	border-top: 0;
+}
+
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.main-1 {
+	height: 1000px;
+	width: 1000px;
+}
+
+/*轮播图*/
+
+.container {
+	position: relative;
+	width: 590px;
+}
+button {
+	height: 50px;
+	background: white;
+	opacity: 0.5;
+	outline: none;
+}
+.hua-imgs {
+	display: none;
+}
+.active {
+	display: block;
+}
+.vertical-center {
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	color:white;
+	font-weight: bold;
+	padding: 16px;
+	transition:0.6s ease;
+	border-radius: 0 6px 6px 0;
+}
+.horizon-center {
+	position: absolute;
+	left: 90%;
+	transform: translateX(-50%);
+}
+#id-btn-next {
+	right: 0px;
+	border-radius: 6px 0 0 6px;
+}
+#id-btn-pre:hover {
+	background-color: rgba(0,0,0,0.7);
+}
+#id-btn-next:hover {
+	background-color: rgba(0,0,0,0.7);
+}
+.hua-indicators {
+	position: absolute;
+	bottom: 10px;
+	margin: 0 auto;
+}
+.hua-indi {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: black;
+	opacity: 0.7;
+}
+.white {
+	background: white;
+}
+/* 淡出动画 */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+ 
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+.carousel .container {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.aside-1 {
+	float: right;
+	background-color: #fff;
+}
