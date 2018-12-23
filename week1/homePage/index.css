@@ -153,12 +153,30 @@ button {
 
 
 .carousel .container {
-	float: right;
+	float: left;
 	margin-left: 10px;
 	margin-top: 10px;
 }
 
 .aside-1 {
-	float: right;
+	float: left;
 	background-color: #fff;
+	margin-left: 135px;
+	margin-top: 15px;
+	/* padding: 10px; */
+	border-radius: 3px;
 }
+
+.aside-1 .project {
+	line-height: 30px;
+	height: 30px;
+	padding-top: 3px;
+}
+
+.aside-1-title {
+	background-color: #303338;
+	color: #fff;
+	border-radius: 4px;
+	padding: 3px;
+}
+
