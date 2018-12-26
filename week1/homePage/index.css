@@ -76,7 +76,9 @@ nav {
 
 .container {
 	position: relative;
-	width: 590px;
+	background-color: #fff;
+	padding: 4px;
+	/* width: 590px; */
 }
 button {
 	height: 50px;
@@ -132,6 +134,7 @@ button {
 .white {
 	background: white;
 }
+
 /* 淡出动画 */
 .fade {
   -webkit-animation-name: fade;
@@ -156,13 +159,14 @@ button {
 	float: left;
 	margin-left: 10px;
 	margin-top: 10px;
+	border-radius: 3px;
 }
 
 .aside-1 {
 	float: left;
 	background-color: #fff;
-	margin-left: 135px;
-	margin-top: 15px;
+	margin-left: 5px;
+	margin-top: 11px;
 	/* padding: 10px; */
 	border-radius: 3px;
 }
@@ -170,13 +174,112 @@ button {
 .aside-1 .project {
 	line-height: 30px;
 	height: 30px;
-	padding-top: 3px;
 }
 
 .aside-1-title {
 	background-color: #303338;
 	color: #fff;
 	border-radius: 4px;
-	padding: 3px;
+	padding: 6px;
+	margin: 4px;
 }
+
+.aside-1-title span,a {
+	font-size: 14px;
+}
+
+.more {
+	float: right;
+}
+
+.project {
+	padding: 6px;
+	border-bottom: 1px dashed #303338;
+	padding-right: 22px;
+}
+
+.project span,a {
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.arrow-right {
+	float: right;
+}
+
+.aside-bj {
+	border: none;
+}
+
+/* info */
+.laba {
+	float: left;
+}
+
+.info span {
+	float: left;
+	font-size: 12px;
+}
+
+.info {
+	float: left;
+	background-color: #fff;
+	border-radius: 3px;
+	padding: 8px;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-right: 464px;
+}
+
+.info .info-container {
+	float: left;
+}
+
+.info-container a {
+	padding-left: 10px;
+}
+
+/* main-2 */
+
+.main-2 {
+	float: left;
+	display: flex;
+	width: 550px;
+}
+
+.about-us,.back-up,.crew-center,.storage-center {
+	justify-content: space-between;
+	/* border: 1px red solid; */
+	background-color: #fff;
+	border-radius: 3px;
+	margin: 4px;
+	padding: 7px;
+}
+
+.main-2-title {
+	font-size: 12px;
+	padding: 8px;
+}
+
+.about-us {
+	background-color: #fff;
+}
+.about-us-title {
+	background-color: #303338;
+	color: #fff;
+	border-radius: 4px;
+	padding: 4px;
+	margin: 7px;
+}
+
+.main-2 p {
+	font-size: 12px;
+	color: #303338;	
+}
+
+.about-us {
+	margin-left: 10px;
+}
+
+
 
