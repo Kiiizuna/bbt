@@ -127,7 +127,7 @@ button {
 	display: inline-block;
 	width: 15px;
 	height: 15px;
-	border-radius: 50%;
+	border-radius: 10%;
 	background: black;
 	opacity: 0.7;
 }
@@ -214,11 +214,13 @@ button {
 /* info */
 .laba {
 	float: left;
+	margin-top: 3px;
 }
 
 .info span {
 	float: left;
 	font-size: 12px;
+	margin-top: 4px;
 }
 
 .info {
@@ -239,12 +241,17 @@ button {
 	padding-left: 10px;
 }
 
+.span-1,.span-2,.span-3,.span-4,.span-5 {
+	position: relative;
+	top: -13px;
+}
+
 /* main-2 */
 
 .main-2 {
 	float: left;
 	display: flex;
-	width: 550px;
+	width: 666px;
 }
 
 .about-us,.back-up,.crew-center,.storage-center {
@@ -281,5 +288,77 @@ button {
 	margin-left: 10px;
 }
 
+.main-2 a {
+	float: right;
+}
+
+/* main-3*/
+
+.main-3 {
+	float: left;
+	display: flex;
+}
+
+.main-3-latest,.main-3-contact {
+	justify-content: space-between;
+	/* border: #bb2939 solid 1px; */
+	background-color: #fff;
+	border-radius: 3px;
+	margin: 3px;
+	padding: 3px;
+	margin-left: 8px;
+}
+
+.main-3-latest-title {
+	background-color: #303338;
+	color: #fff;
+	border-radius: 4px;
+	padding: 4px;
+	margin: 7px;
+}
+
+.news-detail {
+	border-bottom: 1px dashed #303338;
+	padding: 4px;
+	font-size: 12px;
+	color: #303338;	
+}
+
+.main-3-latest {
+	width: 725px;
+}
+
+.main-3-contact .item {
+	border: #b6b6b6 1px solid;
+	margin: 5px;	
+	border-radius: 3px;
+	padding: 5px;
+	padding-right: 85px;
+}
+
+.tele,.mail,.location{
+	display: block;
+}
+
+.main-3-latest .span-date {
+	float: right;
+}
+
+/* footer */
 
 
+footer span {
+	float: left;
+	display: block;
+	width: 300px;
+	margin-left: 369px;
+	font-size: 12px;
+	color:#fff;
+}
+
+.copyright	{
+	margin-top: 35px;
+}
+.tech {
+	margin-left: 390px;
+}
