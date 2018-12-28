@@ -1,3 +1,7 @@
+.ul-1 {
+	box-sizing:border-box;
+}
+
 ul li {
 	list-style: none;
 }
@@ -34,7 +38,8 @@ a {
 }
 nav {
 	height: 36px;
-	background: -webkit-linear-gradient(top, #8ac6e2, #035985);
+	/* background: -webkit-linear-gradient(top, #8ac6e2, #035985); */
+	background: url(images/blue.png);
 }
 .ul-1 {
 	margin-top: -1px;
@@ -56,7 +61,8 @@ nav {
 }
 
 .ul-1 li:hover {
-	background:-webkit-linear-gradient(top, #e9abb1, #bb2939);
+	/* background:-webkit-linear-gradient(top, #e9abb1, #bb2939); */
+	background: url(images/red.png);
 	border: 1px solid red;
 	border-top: 0;
 }
@@ -121,18 +127,29 @@ button {
 .hua-indicators {
 	position: absolute;
 	bottom: 10px;
+	right: 10px;
 	margin: 0 auto;
 }
 .hua-indi {
 	display: inline-block;
 	width: 15px;
 	height: 15px;
-	border-radius: 10%;
-	background: black;
+	line-height: 15px;
+	border-radius: 20%;
+	background: url(images/btn-white.png);
 	opacity: 0.7;
 }
 .white {
-	background: white;
+	background: url(images/btn-blue.png);
+	color: #fff;
+}
+
+.hua-indicators span {
+	position: relative;
+	top: -3px;
+	left: 3px;
+	font-size: 10px;
+	margin: 0 auto;
 }
 
 /* 淡出动画 */
@@ -265,7 +282,7 @@ button {
 
 .main-2-title {
 	font-size: 12px;
-	padding: 8px;
+	padding: 4px;
 }
 
 .about-us {
@@ -276,7 +293,7 @@ button {
 	color: #fff;
 	border-radius: 4px;
 	padding: 4px;
-	margin: 7px;
+	margin: -2px;
 }
 
 .main-2 p {
@@ -291,6 +308,15 @@ button {
 .main-2 a {
 	float: right;
 }
+
+.image-about {
+	margin-top: 7px;
+}
+
+.promise,.center,.express {
+	padding-top: 5px;
+}
+
 
 /* main-3*/
 
@@ -319,7 +345,7 @@ button {
 
 .news-detail {
 	border-bottom: 1px dashed #303338;
-	padding: 4px;
+	padding: 5px;
 	font-size: 12px;
 	color: #303338;	
 }
@@ -342,6 +368,20 @@ button {
 
 .main-3-latest .span-date {
 	float: right;
+}
+
+.main-3-hot {
+	position: relative;
+	top: -9px;
+}
+
+.main-3-hot-2 {
+	position: relative;
+	top: -5px;
+}
+
+.main-3-latest :last-child {
+	border-bottom: none;
 }
 
 /* footer */
