@@ -1,6 +1,5 @@
-.ul-1 li {
-	box-sizing: border-box;
-}
+
+
 
 ul li {
 	list-style: none;
@@ -11,7 +10,7 @@ a {
 }
 
 .main {
-	width: 978px;
+	width: 980px;
 	background: url(images/background.png) no-repeat center;
 	/*border:1px green solid;*/
 	margin: 0 auto;
@@ -50,9 +49,12 @@ nav {
 	line-height: 30px;
 	text-align: center;
 	margin: auto;
+	box-sizing: border-box;
+
 }
 
 .ul-1 li a {
+	box-sizing: border-box;
 	width: 88px;
 	display: block;
 	margin: 0 3px;
@@ -65,6 +67,7 @@ nav {
 	background: url(images/red.png);
 	border: 1px solid red;
 	border-top: 0;
+	margin: 0 -2px -2px 0;
 }
 
 .clearfix::after {
@@ -269,17 +272,19 @@ button {
 
 .main-2 {
 	float: left;
-	display: flex;
-	width: 666px;
+	box-sizing: border-box;
+	/* display: flex; */
+	/* width: 666px; */
 }
 
 .about-us,.back-up,.crew-center,.storage-center {
-	justify-content: space-between;
+	box-sizing: border-box;
+	float: left;
+	/* justify-content: space-between; */
 	/* border: 1px red solid; */
 	background-color: #fff;
 	border-radius: 3px;
-	margin: 4px;
-	padding: 7px;
+	/* margin: 4px; */
 }
 
 .main-2-title {
@@ -288,27 +293,43 @@ button {
 }
 
 .about-us {
+	width: 278px;
+	height: 268px;
 	background-color: #fff;
+	margin: 10px 8px 9px 10px;
+	padding: 0 5px 0 5px;
+}
+.back-up {
+	margin: 10px 9px 9px 0;
+}
+.crew-center {
+	margin: 10px 9px 9px 0;
+}
+.storage-center {
+	margin: 10px 10px 9px 0;
+}
+.back-up,.crew-center,.storage-center {
+	width: 219px;
+	height: 266px;
 }
 .about-us-title {
 	background-color: #303338;
 	color: #fff;
 	border-radius: 4px;
 	padding: 4px;
-	margin: -2px;
+	margin: 2px;
 }
 
 .main-2 p {
 	font-size: 12px;
 	color: #303338;	
-}
-
-.about-us {
-	margin-left: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
 }
 
 .main-2 a {
 	float: right;
+	padding-right: 5px;
 }
 
 .image-about {
@@ -316,7 +337,7 @@ button {
 }
 
 .promise,.center,.express {
-	padding-top: 5px;
+	padding: 5px;
 }
 
 
@@ -324,12 +345,14 @@ button {
 
 .main-3 {
 	float: left;
-	display: flex;
+	/* display: flex; */
 }
 
 .main-3-latest,.main-3-contact {
-	justify-content: space-between;
+	/* justify-content: space-between; */
 	/* border: #bb2939 solid 1px; */
+	box-sizing: border-box;
+	float: left;
 	background-color: #fff;
 	border-radius: 3px;
 	margin: 3px;
@@ -353,7 +376,10 @@ button {
 }
 
 .main-3-latest {
-	width: 725px;
+	width: 733px;
+}
+.main-3-contact {
+	width: 220px;
 }
 
 .main-3-contact .item {
