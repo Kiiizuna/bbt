@@ -1,0 +1,49 @@
+.wrapper {
+	background-color: #fff;
+	margin: 10px;
+	padding: 5px;
+}
+
+.title {
+	background-color: #303338;
+    color: #fff;
+	border-radius: 4px;
+	margin: 10px;
+	padding: 2px;
+}
+
+.short-intr {
+	font-size: 12px;
+	text-indent: 2em;
+	margin: 5px 0 0 0;
+	padding: 0 0 5px 0;
+}
+
+.wrapper .item-1 {
+	line-height: 20px;
+	height: 20px;
+	padding: 8px 0 8px 0;
+	border-bottom: 1px dashed gray;
+}
+
+.wrapper .item-1  .span-1 {
+	font-size: 12px;
+	margin-left: 15px;
+}
+
+.item-1 :first-child {
+	margin-left: 15px;
+}
+
+.item-1 :last-child {
+	font-size: 12px;
+	float: right;
+	margin-right: 15px;
+}
+
+
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}

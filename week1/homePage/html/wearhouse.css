@@ -1,0 +1,42 @@
+.wrapper {
+	background-color: #fff;
+	margin: 10px;
+	padding: 5px;
+}
+
+
+.title {
+	background-color: #303338;
+    color: #fff;
+	border-radius: 4px;
+	margin: 10px;
+	padding: 2px;
+}
+
+.short-intr {
+	font-size: 14px;
+	text-indent: 2em;
+	margin: 5px 0 0 0;
+	padding: 0 0 5px 0;
+}
+
+.wrapper .img-1,.img-2 {
+	text-align: center;
+}
+
+.wrapper .img-1 {
+	/* width: 205px; */
+	margin: 0 auto;
+}
+.wrapper .img-2 {
+	margin: 5px 0 40px 0;
+}
+
+.img-2 :first-child {
+	margin-right: 15px;
+}
+
+.img-2 :last-child {
+	margin-left: 15px;
+}
+

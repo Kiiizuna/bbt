@@ -1,0 +1,182 @@
+
+
+
+ul li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main {
+	width: 980px;
+	background: url(../images/background.png) no-repeat center;
+	/*border:1px green solid;*/
+	margin: 0 auto;
+}
+
+.header {
+	position: relative;
+	width: 980px;
+	height: 90px;
+	background-color: white;
+}
+
+.logo {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+
+.line {
+	height: 4px;
+	width: 976px;
+	border: 1px red solid;
+	background-color: #edbec3;
+}
+nav {
+	height: 36px;
+	/* background: -webkit-linear-gradient(top, #8ac6e2, #035985); */
+	background: url(../images/blue.png);
+}
+.ul-1 {
+	margin-top: -1px;
+	padding-left: 85px;
+}
+.ul-1 li {
+	float: left;
+	line-height: 30px;
+	text-align: center;
+}
+
+.ul-1 li a {
+	box-sizing: border-box;
+	width: 88px;
+	display: block;
+	font-size: 12px;
+	color: #fff;
+}
+
+.ul-1 a:hover {
+	/* background:-webkit-linear-gradient(top, #e9abb1, #bb2939); */
+	background: url(../images/red.png);
+	border: 1px solid red;
+	border-top: 0;
+}
+
+.active {
+	background: url(../images/red.png);
+	border: 1px solid red;
+	border-top: 0;
+
+}
+
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+/*wrapper start*/
+
+/* .wrapper {
+	background-color: #fff;
+	margin: 10px;
+	padding: 5px;
+}
+
+
+.title {
+	background-color: #303338;
+    color: #fff;
+	border-radius: 4px;
+	margin: 10px;
+	padding: 2px;
+}
+
+.short-intr {
+	font-size: 14px;
+	text-indent: 2em;
+	margin: 5px 0 0 0;
+	padding: 0 0 5px 0;
+}
+
+.item {
+	border: 1px dashed gray;
+	border-left: none;
+	border-right: none;
+	padding: 10px 10px 20px 10px;
+	box-sizing: content-box;
+	font-size: 14px;
+}
+
+.wrapper :last-child {
+	border-bottom: none;
+}
+
+.item img {
+	float: left;
+}
+.item p,span {
+	font-size: 14px;
+}
+
+.item .item-span {
+	padding: 5px 60px 5px 40px;
+    margin-left: 10px;
+    margin-bottom: 17px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 25px;
+    text-indent: 2em;
+}
+
+.item .span-1 {
+    background: url(../images/houqing-logo1.jpg) no-repeat;
+}
+.item .span-2 {
+	background: url(../images/houqing-logo2.jpg) no-repeat;
+}
+
+.item .span-3 {
+	background: url(../images/houqing-logo3.jpg) no-repeat;
+}
+
+.item .span-4 {
+	background: url(../images/houqing-logo4.jpg) no-repeat;
+}
+
+.item .span-5 {
+	background: url(../images/houqing-logo5.jpg) no-repeat;
+} */
+
+
+ /* .item p {
+	margin-left: 10px;
+	padding: 0px 0 0 157px;
+}  */
+
+
+/* footer */
+
+
+.footer {
+    width: 350px;
+    font-size: 12px;
+    color: #fff;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.footer span {
+	display: inline-block;
+}
+
+.copyright	{
+	padding: 30px 0 0 0;
+}
+.tech {
+	padding: 0 0 20px 0;
+}
+
