@@ -21,3 +21,22 @@ html {
     clear: both;
 }
 
+/* live start  */
+
+.live .f_01 div {
+    background: url(../images/f_01.png) no-repeat;
+    height: 341px;
+}
+
+.f_01 div :first-child {
+    display: block;
+    padding-top: 291px;
+    color: rgb(226, 226, 226);
+    font-size: 1.5rem;
+}
+
+.f_01 div :last-child {
+    display: block;
+    color: rgb(138, 138, 138);
+    font-size: 1.2rem;
+}
