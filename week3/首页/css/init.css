@@ -9,3 +9,15 @@ a {
     color: #333333;
 }
 
+html {
+    font-size: 12px;
+    line-height: 1.2;
+    background-color: #fff;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
