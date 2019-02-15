@@ -159,3 +159,229 @@
     color: #767676;
 }
 
+
+/* live start  */
+
+.lineone {
+    display: flex;
+    justify-content: space-around;
+}
+
+ .live .f_01 div {
+    background: url(../images/f_01.png) no-repeat;
+    height: 341px;
+ }
+
+.f_01 div :first-child {
+    display: block;
+    padding-top: 291px;
+    color: rgb(226, 226, 226);
+    font-size: 1.5rem;
+}
+
+.f_01 div :last-child {
+    display: block;
+    color: rgb(138, 138, 138);
+    font-size: 1.2rem;
+    padding-right: 150px;
+} 
+
+
+.live .f_02 div {
+    background: url(../images/f_02.png) no-repeat;
+    height: 341px;
+ }
+
+.f_02 div :first-child {
+    display: block;
+    padding-top: 291px;
+    color: rgb(226, 226, 226);
+    font-size: 1.5rem;
+}
+
+.f_02 div :last-child {
+    display: block;
+    color: rgb(138, 138, 138);
+    font-size: 1.2rem;
+    padding-right: 150px;
+}
+
+
+/* 2nd line start */
+
+.linetwo {
+    display: flex;
+    justify-content: space-around;
+}
+
+ .live .f_03 div {
+    background: url(../images/f_03.png) no-repeat;
+    height: 341px;
+ }
+
+.f_03 div :first-child {
+    display: block;
+    padding-top: 291px;
+    color: rgb(226, 226, 226);
+    font-size: 1.5rem;
+}
+
+.f_03 div :last-child {
+    display: block;
+    color: rgb(138, 138, 138);
+    font-size: 1.2rem;
+    padding-right: 150px;
+} 
+
+
+.live .f_04 div {
+    background: url(../images/f_04.png) no-repeat;
+    height: 341px;
+ }
+
+.f_04 div :first-child {
+    display: block;
+    padding-top: 291px;
+    color: rgb(226, 226, 226);
+    font-size: 1.5rem;
+}
+
+.f_04 div :last-child {
+    display: block;
+    color: rgb(138, 138, 138);
+    font-size: 1.2rem;
+    padding-right: 150px;
+}
+
+
+
+.linethree {
+    display: flex;
+    justify-content: space-around;
+}
+
+ .live .f_05 div {
+    background: url(../images/f_05.png) no-repeat;
+    height: 341px;
+ }
+
+.f_05 div :first-child {
+    display: block;
+    padding-top: 291px;
+    color: rgb(226, 226, 226);
+    font-size: 1.5rem;
+}
+
+.f_05 div :last-child {
+    display: block;
+    color: rgb(138, 138, 138);
+    font-size: 1.2rem;
+    padding-right: 150px;
+} 
+
+
+.live .f_06 div {
+    background: url(../images/f_06.png) no-repeat;
+    height: 341px;
+ }
+
+.f_06 div :first-child {
+    display: block;
+    padding-top: 291px;
+    color: rgb(226, 226, 226);
+    font-size: 1.5rem;
+}
+
+.f_06 div :last-child {
+    display: block;
+    color: rgb(138, 138, 138);
+    font-size: 1.2rem;
+    padding-right: 150px;
+}
+
+
+.reporta {
+    position: relative;
+    background: url(../images/shafa.png) no-repeat;
+    width: 53rem;
+    height: 33.33rem;
+}
+
+.report1 div {
+    background: rgba(0,0,0,0.5);
+    height: 50px;
+    width: 600px;
+    position: absolute;
+}
+.report1 {
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+    text-align: center;
+}
+
+.report1 :nth-child(2) {
+    position: relative;
+    font-size:2rem;
+    color: #e2e2e2;
+    background:#ffc051;
+    border-radius: 2px;
+}
+.report1 :nth-child(3) {
+    position: relative;
+
+    font-size: 2.5rem;
+    color: #e2e2e2;
+}
+
+
+.reportb {
+    position: relative;
+    background: url(../images/nanren.png) no-repeat;
+    width: 53rem;
+    height: 33.33rem;
+}
+
+.report2 div {
+    background: rgba(0,0,0,0.5);
+    height: 50px;
+    width: 600px;
+    position: absolute;
+}
+.report2 {
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+    text-align: center;
+}
+
+
+.report2 :nth-child(2) {
+    position: relative;
+    font-size: 2.5rem;
+    color: #e2e2e2;
+}
+
+/* footer start */
+
+
+footer div {
+    float: left;
+}
+
+
+
+.bigtitle :first-child {
+    display: block;
+    margin-top: 39px;
+}
+
+.copyright {
+    background: #2c2c2c;
+    height: 3.67rem;
+    color: #fff;
+    line-height: 3.67rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+

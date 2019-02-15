@@ -23,10 +23,17 @@ html {
 
 /* live start  */
 
-.live .f_01 div {
+.lineone {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+ .live .f_01 div {
+    /* float: left; */
     background: url(../images/f_01.png) no-repeat;
     height: 341px;
-}
+    /* width: 50%; */
+ }
 
 .f_01 div :first-child {
     display: block;
@@ -36,6 +43,26 @@ html {
 }
 
 .f_01 div :last-child {
+    display: block;
+    color: rgb(138, 138, 138);
+    font-size: 1.2rem;
+} 
+
+
+.live .f_02 div {
+    /* float: right; */
+    background: url(../images/f_02.png) no-repeat;
+    height: 341px;
+}
+
+.f_02 div :first-child {
+    display: block;
+    padding-top: 291px;
+    color: rgb(226, 226, 226);
+    font-size: 1.5rem;
+}
+
+.f_02 div :last-child {
     display: block;
     color: rgb(138, 138, 138);
     font-size: 1.2rem;
