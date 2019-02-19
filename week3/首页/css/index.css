@@ -6,20 +6,20 @@ body {
     position: relative;
 }
 .carousel {
-    height: 425px;
-    background: url(../images/carousel.png) no-repeat;
+    height: 35.47rem;
+    background: url(../images/carousel.png);
 }
 
-.aaa {
+.black {
     position: absolute;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.65);
     width: 100%;
-    height: 425px;
+    height: 35.47rem;
 }
 
 .logo {
-    height: 80px;
-    line-height: 80px;
+    height: 6.67rem;
+    line-height: 6.67rem;
     background: rgba(5,5,5,0.6);
     text-align: center;
 }
@@ -41,6 +41,7 @@ body {
 
 .font {
     position: relative;
+    top: 14.33rem;
 }
 
 .font :first-child {
@@ -57,21 +58,27 @@ body {
     font-size: 3.5rem;
     color: #ffc051;
     display: block;
-    width: 195px;
+    width: 17rem;
     margin: 0 auto;
+    padding-top: 2rem;
+    /* margin-left: 39.33rem; */
 }
 
 .font :last-child {
     font-family: "Microsoft Yahei";
     font-size: 1.92rem;
     color: #ffc051;
-    padding: 5px 10px 5px 10px;
+    padding: 1rem 3.25rem 1rem 3.25rem;
     border: 1px solid #ffc051;
     margin: 0 auto;
     /* display: block; */
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    margin-top: 2rem;
+    border-radius: 0.167rem;
+    
+
 }
 
 .car-nav {
@@ -165,11 +172,18 @@ body {
 .artical >:first-child {
     display: block;
     float: left;
+    margin-left: 2.83rem;
+    margin-bottom: 1.5rem;
 }
 
 .artical >:nth-child(2) {
     display: block;
     float: right;
+    margin-right: 3rem;
+}
+
+.artical .font-wrapper {
+    margin-left: 10.33rem;
 }
 
 .artical .font-wrapper :nth-child(1) {
@@ -186,6 +200,31 @@ body {
     color: #767676;
 }
 
+.live .workshop {
+    height: 3.16rem;
+    line-height: 3.16rem;
+}
+
+.live .workshop :first-child{
+    display: inline-block;
+    float: left;
+    color: #2c2c2c;
+    font-size: 2.16rem;
+}
+
+.live .workshop :nth-child(2){
+    display: inline-block;
+    float: right;
+    background: #ff7200;
+    padding: 0.33rem 0.66rem 0.33rem 0.66rem;
+    border-radius: 0.083rem;
+}
+
+.live .workshop :nth-child(3){
+    display: inline-block;
+    float: right;
+    font-size: 1.75rem;
+}
 
 /* live start  */
 
@@ -336,9 +375,12 @@ body {
 
 .report1 div {
     background: rgba(0,0,0,0.5);
-    height: 50px;
-    width: 600px;
+    height: 5.583rem;
+    width: 53.33rem;
     position: absolute;
+    left: -1.17rem;
+    top: -2.916rem;
+    line-height: 5.583rem;
 }
 .report1 {
     position: absolute;
@@ -347,18 +389,19 @@ body {
     text-align: center;
 }
 
-.report1 :nth-child(2) {
+.report1 div :nth-child(1) {
     position: relative;
     font-size:2rem;
     color: #e2e2e2;
-    background:#ffc051;
+    background:#ff7200;
     border-radius: 2px;
+    padding: 0 0.33rem 0 0.33rem;
 }
-.report1 :nth-child(3) {
+.report1 div :nth-child(2) {
     position: relative;
-
     font-size: 2.5rem;
     color: #e2e2e2;
+    left: 1rem;
 }
 
 
@@ -371,9 +414,12 @@ body {
 
 .report2 div {
     background: rgba(0,0,0,0.5);
-    height: 50px;
-    width: 600px;
+    height: 5.583rem;
+    width: 53.33rem;
     position: absolute;
+    left: -1.17rem;
+    top: -3.17rem;
+    line-height: 5.583rem;
 }
 .report2 {
     position: absolute;
@@ -382,12 +428,12 @@ body {
     text-align: center;
 }
 
-
-.report2 :nth-child(2) {
-    position: relative;
+.recommend2 {
+    color: red;
     font-size: 2.5rem;
     color: #e2e2e2;
 }
+
 
 /* footer start */
 .footer-parent {
@@ -395,10 +441,7 @@ body {
 }
 
 footer {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-
+    margin-left: 5rem;
 }
 footer div {
     float: left;
