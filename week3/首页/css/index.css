@@ -200,16 +200,19 @@ body {
     color: #767676;
 }
 
-.live .workshop {
-    height: 3.16rem;
-    line-height: 3.16rem;
-}
+/* .live .workshop { */
+    /* height: 3.16rem; */
+    /* line-height: 3.16rem; */
+/* } */
 
 .live .workshop :first-child{
     display: inline-block;
     float: left;
     color: #2c2c2c;
     font-size: 2.16rem;
+    margin-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .live .workshop :nth-child(2){
@@ -218,12 +221,15 @@ body {
     background: #ff7200;
     padding: 0.33rem 0.66rem 0.33rem 0.66rem;
     border-radius: 0.083rem;
+    margin: 2.3rem 2rem 2rem 1rem;
 }
 
 .live .workshop :nth-child(3){
     display: inline-block;
     float: right;
     font-size: 1.75rem;
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
 }
 
 /* live start  */
@@ -233,44 +239,42 @@ body {
     justify-content: space-around;
 }
 
- .live .f_01 div {
+ .live .f_01 .bgc_01 {
     background: url(../images/f_01.png) no-repeat;
-    height: 341px;
+    height: 28.417rem;
  }
 
-.f_01 div :first-child {
+ .spanContainer {
+   background: rgba(0,0,0,0.5);
+   position: relative;
+   top:21.5rem;
+} 
+
+ .spanContainer :first-child {
     display: block;
-    padding-top: 291px;
     color: rgb(226, 226, 226);
     font-size: 1.5rem;
+    width: 26.667rem;
+    padding-top: 1.55rem;
+    padding-bottom: 0.833rem;
+    padding-left: 5.333rem;
 }
 
-.f_01 div :last-child {
+ .spanContainer :last-child {
     display: block;
     color: rgb(138, 138, 138);
     font-size: 1.2rem;
-    padding-right: 150px;
+    padding-bottom: 1.333rem;
+    padding-left: 5.333rem;
+
 } 
 
 
-.live .f_02 div {
+.live .f_02 .bgc_02 {
     background: url(../images/f_02.png) no-repeat;
-    height: 341px;
+    height: 28.417rem;
  }
 
-.f_02 div :first-child {
-    display: block;
-    padding-top: 291px;
-    color: rgb(226, 226, 226);
-    font-size: 1.5rem;
-}
-
-.f_02 div :last-child {
-    display: block;
-    color: rgb(138, 138, 138);
-    font-size: 1.2rem;
-    padding-right: 150px;
-}
 
 
 /* 2nd line start */
@@ -280,44 +284,17 @@ body {
     justify-content: space-around;
 }
 
- .live .f_03 div {
+ .live .f_03 .bgc_03 {
     background: url(../images/f_03.png) no-repeat;
-    height: 341px;
+    height: 28.417rem;
  }
 
-.f_03 div :first-child {
-    display: block;
-    padding-top: 291px;
-    color: rgb(226, 226, 226);
-    font-size: 1.5rem;
-}
-
-.f_03 div :last-child {
-    display: block;
-    color: rgb(138, 138, 138);
-    font-size: 1.2rem;
-    padding-right: 150px;
-} 
-
-
-.live .f_04 div {
+.live .f_04 .bgc_04 {
     background: url(../images/f_04.png) no-repeat;
-    height: 341px;
+    height: 28.417rem;
+    
  }
 
-.f_04 div :first-child {
-    display: block;
-    padding-top: 291px;
-    color: rgb(226, 226, 226);
-    font-size: 1.5rem;
-}
-
-.f_04 div :last-child {
-    display: block;
-    color: rgb(138, 138, 138);
-    font-size: 1.2rem;
-    padding-right: 150px;
-}
 
 
 
@@ -326,46 +303,44 @@ body {
     justify-content: space-around;
 }
 
- .live .f_05 div {
+ .live .f_05 .bgc_05 {
     background: url(../images/f_05.png) no-repeat;
-    height: 341px;
+    height: 28.417rem;
+    
  }
 
-.f_05 div :first-child {
-    display: block;
-    padding-top: 291px;
-    color: rgb(226, 226, 226);
-    font-size: 1.5rem;
-}
-
-.f_05 div :last-child {
-    display: block;
-    color: rgb(138, 138, 138);
-    font-size: 1.2rem;
-    padding-right: 150px;
-} 
-
-
-.live .f_06 div {
+.live .f_06 .bgc_06 {
     background: url(../images/f_06.png) no-repeat;
-    height: 341px;
+    height: 28.417rem;
  }
 
-.f_06 div :first-child {
-    display: block;
-    padding-top: 291px;
-    color: rgb(226, 226, 226);
-    font-size: 1.5rem;
+
+.moreReport :first-child{
+    display: inline-block;
+    float: left;
+    color: #2c2c2c;
+    font-size: 2.16rem;
+    margin-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
-.f_06 div :last-child {
-    display: block;
-    color: rgb(138, 138, 138);
-    font-size: 1.2rem;
-    padding-right: 150px;
+.moreReport :nth-child(2){
+    display: inline-block;
+    float: right;
+    background: #ff7200;
+    padding: 0.33rem 0.66rem 0.33rem 0.66rem;
+    border-radius: 0.083rem;
+    margin: 2.3rem 2rem 2rem 1rem;
 }
 
-
+.moreReport :nth-child(3){
+    display: inline-block;
+    float: right;
+    font-size: 1.75rem;
+    padding-top: 2.2rem;
+    padding-bottom: 2.2rem;
+}
 .reporta {
     position: relative;
     background: url(../images/shafa.png) no-repeat;
