@@ -26,15 +26,17 @@ body {
 
 .logo :first-child {
     float: left;
-    padding: 16px 0 0 16px;
+    padding: 1.33rem 0 0 2rem;
 }
 
 .logo :last-child {
     float: right;
+    padding: 1.417rem 2.33rem 0 0;
+
 }
 
 .logo span {
-    font-size: 34px;
+    font-size: 2.83rem;
     color: #eee;
     font-family: 'HiraginoSansGB';
 }
@@ -219,9 +221,13 @@ body {
     display: inline-block;
     float: right;
     background: #ff7200;
-    padding: 0.33rem 0.66rem 0.33rem 0.66rem;
+    padding: 0.01rem 0.6rem 0.01rem 0.6rem;
     border-radius: 0.083rem;
     margin: 2.3rem 2rem 2rem 1rem;
+    color: #eee;
+    font-weight: bold;
+    font-family: 'SimSun';
+    font-size: 2rem;
 }
 
 .live .workshop :nth-child(3){
@@ -247,7 +253,7 @@ body {
  .spanContainer {
    background: rgba(0,0,0,0.5);
    position: relative;
-   top:21.5rem;
+   top:21.45rem;
 } 
 
  .spanContainer :first-child {
@@ -301,6 +307,7 @@ body {
 .linethree {
     display: flex;
     justify-content: space-around;
+    margin-top: -0.0833rem;
 }
 
  .live .f_05 .bgc_05 {
@@ -329,9 +336,13 @@ body {
     display: inline-block;
     float: right;
     background: #ff7200;
-    padding: 0.33rem 0.66rem 0.33rem 0.66rem;
+    padding: 0.01rem 0.6rem 0.01rem 0.6rem;
     border-radius: 0.083rem;
     margin: 2.3rem 2rem 2rem 1rem;
+    color: #eee;
+    font-weight: bold;
+    font-family: 'SimSun';
+    font-size: 2rem;
 }
 
 .moreReport :nth-child(3){
