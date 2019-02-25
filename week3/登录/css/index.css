@@ -1,0 +1,132 @@
+
+header {
+    background-color: #2c2c2c;
+    opacity: 0.8;
+    font-size: 0.34rem;
+    width: 100%;
+    height: .79rem;
+    line-height: .79rem;
+    color: #eee;
+    text-align: center;
+}
+
+header .left {
+    float: left;
+    padding: .2rem 0 0 .27rem;
+
+}
+
+header .point {
+    float: right;
+    padding: .36rem .26rem 0 0;
+}
+
+header .login {
+    padding-top: .25rem;
+}
+
+/* girl start */
+
+.cover {
+    /* height: 2.92rem; */
+    background: url(../images/bg.png) no-repeat;
+}
+
+.girl {
+    float: left;
+    padding: .12rem 0 0 .42rem;
+}
+
+.span-group {
+    float: right;
+    font-size:0.3967rem;
+    padding: 1rem .63rem 0 0;
+    color: #eee;
+}
+
+.span-group :first-child {
+    display: block;
+    margin-bottom: .1329rem;
+}
+
+.span-group :last-child {
+    display: block;
+    float: left;
+}
+
+.notice {
+    margin: .16rem 0 0 .84rem;
+
+}
+
+.notice img {
+    display: block;
+    float: left;
+}
+.notice span {
+    font-size: .21rem;
+    color: #ff5959;
+    display: inline-block;
+    float: left;
+}
+
+.inputall {
+    width: 100%;
+    margin-top: .17rem;
+
+}
+
+.mobile {
+    display: block;
+    width: 4.51rem;
+    height: 0.78rem;
+    
+    margin: 0 auto;
+
+}
+
+.password {
+    display: block;
+    width: 4.51rem;
+    height: 0.78rem;
+    margin: 0 auto;
+    margin-top: .17rem;
+
+}
+
+.code {
+    width: 4.51rem;
+    height: 0.78rem;
+    margin: 0 auto;
+    margin-top: .17rem;
+
+}
+
+.code input {
+    height: 0.78rem;
+    float: left;
+    /* width: 3.02rem; */
+}
+
+.code span {
+    font-size:.21rem;
+    color: #595959;
+    background-color: #b2b2b2;
+    padding: .27rem .36rem .27rem .36rem;
+    float: left;
+    margin-left: .26rem;
+}
+
+.notice2 {
+    width: 4.51rem;
+    height: 0.78rem;
+    position: absolute;
+    top:7.28rem;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.notice2 span {
+    font-size:.21rem;
+    color: #6c6c6c;
+}
