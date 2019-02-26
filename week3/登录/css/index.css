@@ -73,16 +73,27 @@ header .login {
 .inputall {
     width: 100%;
     margin-top: .17rem;
+}
 
+.inputall ::-webkit-input-placeholder{
+    color: #b5b5b5;
+    font-size: .28rem;
+}
+
+.inputall input {
+    background-color: #f5f5f5;
+    border-radius: .04rem;
+    font-size: .28rem;
+    line-height: .78rem;
 }
 
 .mobile {
     display: block;
     width: 4.51rem;
     height: 0.78rem;
-    
+    border: 0.01rem solid #c7c7c7;
     margin: 0 auto;
-
+    padding-left: .16rem;
 }
 
 .password {
@@ -91,6 +102,9 @@ header .login {
     height: 0.78rem;
     margin: 0 auto;
     margin-top: .17rem;
+    border: 0.01rem solid #c7c7c7;
+    padding-left: .16rem;
+
 
 }
 
@@ -105,28 +119,108 @@ header .login {
 .code input {
     height: 0.78rem;
     float: left;
-    /* width: 3.02rem; */
+    width: 3.02rem;
+    border: 0.01rem solid #c7c7c7;
+    padding-left: .16rem;
+
+
 }
 
 .code span {
-    font-size:.21rem;
+    font-size:.28rem;
     color: #595959;
     background-color: #b2b2b2;
-    padding: .27rem .36rem .27rem .36rem;
-    float: left;
-    margin-left: .26rem;
+    padding: .24rem .36rem .24rem .36rem;
+    float: right;
 }
 
 .notice2 {
+    width: 100%;
+    /* border: 2px solid rgb(47, 155, 88); */
+    margin-top: .2rem;
+}
+.notice2 .wrapper {
     width: 4.51rem;
-    height: 0.78rem;
-    position: absolute;
-    top:7.28rem;
-    left: 50%;
-    transform: translateX(-50%)
+    margin: 0 auto;
+    /* border: 2px red solid; */
+}
+.wrapper input {
+    float: left;
+    margin-top: .08rem;
 }
 
+.wrapper .rememberps {
+    float: left;
+}
+
+.wrapper .forgetps {
+    float: right;
+}
 .notice2 span {
     font-size:.21rem;
     color: #6c6c6c;
+}
+
+.register {
+    width: 4.51rem;
+    font-size: .34rem;
+    margin: 0 auto;
+    margin-top: .17rem;
+    /* border: 2px greenyellow dashed; */
+    margin-top: .26rem;
+}
+
+.register :first-child {
+    float: left;
+    color: #ffa751;
+    padding: .2rem .7rem .2rem .7rem;
+    border:  #ffa751 solid .01rem;
+    border-radius: 0.02rem;
+
+}
+
+.register :last-child {
+    float: right;
+    color: #fff;
+    padding: .2rem .7rem .2rem .7rem;
+    background-color: #ffa751;
+    border-radius: 0.02rem;
+}
+
+.line {
+    width: 4.64rem;
+    margin: 0 auto;
+    margin-top: .17rem;
+    /* border: 2px rgb(201, 151, 60) dashed; */
+    margin-top: .26rem;
+    font-size: .21rem;
+    color: #5b5b5b;
+    vertical-align: middle;
+    line-height: .6rem;
+
+}
+
+.line :first-child {
+    float: left;
+    margin-top: .3rem;
+}
+
+.line :last-child {
+    float: right;
+    margin-top: .3rem;
+
+}
+
+
+.directlog {
+    display: flex;
+    width: 4.51rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    /* margin-top: .28rem; */
+    margin-bottom: .50rem;
+}
+
+.directlog img {
+    display: block;
 }
