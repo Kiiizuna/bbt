@@ -58,6 +58,7 @@ header .login {
 
 .bar img {
     vertical-align: middle;
+    margin-left: .45rem;
 
 }
 
@@ -90,7 +91,12 @@ header .login {
 .nav-1,.nav-2 {
     display: flex;
     justify-content: space-between;
-    
+    padding-top: .22rem;
+    padding-bottom: .11rem;  
+}
+
+.nav-1 {
+    border-bottom: #e9e9e9 .01rem solid;
 }
 
 .nav-1 .huxk, .nav-2 .gsvh {
@@ -143,11 +149,48 @@ header .login {
     margin: 0 auto;
     justify-content: space-between;
     /* margin-top: .28rem; */
-    margin-bottom: .50rem;
+    /* margin-bottom: .50rem; */
 }
 
 .directlog img {
     display: block;
+}
+
+.line1-1 {
+    margin-left: -0.55rem;
+    margin-right: .46rem;
+}
+
+.line1-2 {
+    margin-right: .46rem;
+}
+
+.line1-3 {
+    margin-right: .46rem;
+}
+
+.class-circle {
+    font-size: 0.22rem;
+    color: #eee;
+}
+
+.class-span {
+    position: relative;
+    left: .1rem;
+    top: -0.65rem;
+}
+
+.finish .class-span {
+    left: .19rem;
+}
+
+.finish .class-span-2 {
+    left: .26rem;
+    font-size: .25rem;
+}
+
+.finish .class-span {
+    top: -.75rem;
 }
 
 .isolator {
@@ -155,4 +198,5 @@ header .login {
     height: .18rem;
     background-color: rgb(248,248,248);
     border: 0.01rem solid rgb(233, 233, 233);
+    margin-bottom: .2rem;
 }
