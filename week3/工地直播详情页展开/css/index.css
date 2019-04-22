@@ -1,0 +1,315 @@
+
+header {
+    /* background-color: #2c2c2c; */
+    /* opacity: 0.8; */
+    font-size: 0.34rem;
+    width: 100%;
+    height: .79rem;
+    line-height: .79rem;
+    color: #eee;
+    text-align: center;
+    
+
+}
+
+.black {
+    /* position: absolute; */
+    background: rgba(0, 0, 0, 0.66);
+    width: 6.4rem;
+    height: .8rem;
+    margin-bottom: .22rem;
+
+}
+
+header .left {
+    float: left;
+    padding: .2rem 0 0 .27rem;
+
+}
+
+header .point {
+    float: right;
+    padding: .36rem .26rem 0 0;
+}
+
+header .login {
+    padding-top: .25rem;
+}
+
+/* bar start */
+
+/* .cover {
+    background: url(../images/bgg.png) no-repeat;
+    height: 4.5rem;
+} */
+
+.bar {
+    height: .77rem;
+    background: rgba(0,0,0,0.5);
+    font-size: .24rem;
+    color: #eee;
+    line-height: .77rem;
+    vertical-align: middle;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+
+}
+
+.bar img {
+    vertical-align: middle;
+    margin-left: .45rem;
+
+}
+
+.workshopname {
+    height: .74rem;
+    font-size: .3rem;
+    color: #4d4d4d;
+    border-bottom: #e9e9e9 .01rem solid;
+}
+
+.workshop-wrapper {
+    width: 3.34rem;
+    margin: 0 auto;
+    padding: .22rem 0 .22rem 0;
+}
+
+.workshop-wrapper :last-child {
+    color: #eee;
+    padding: .03rem .08rem .03rem .08rem;
+    font-size: .23rem;
+    background: orange;
+    border-radius: .04rem;
+}
+
+.nav {
+    font-size:.24rem;
+    color: #4d4d4d;
+    text-align: center;
+}
+.nav-1,.nav-2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: .22rem;
+    padding-bottom: .11rem;  
+}
+
+.nav-1 {
+    border-bottom: #e9e9e9 .01rem solid;
+}
+
+.nav-1 .huxk, .nav-2 .gsvh {
+    width: 33.33%;
+}
+
+.nav-1 .mmji, .nav-2 .gsqi {
+    width: 33.33%;
+}
+
+.nav-1 .jtsr, .nav-2 .yevu {
+    width: 33.33%;
+}
+
+
+.son :first-child {
+    display: block;
+}
+
+.son :last-child {
+    padding-bottom: .3rem;
+}
+.huxk img, .gsvh img {
+    width: .67rem;
+    margin: 0 auto;
+    margin-bottom: .2rem;
+}
+
+.mmji img, .gsqi img {
+    width: .57rem;
+    margin: 0 auto;
+    margin-bottom: .2rem;
+
+}
+
+.jtsr img, .yevu img{
+    width: .57rem;
+    margin: 0 auto;
+    margin-bottom: .2rem;
+}
+
+/* nav-2 :start */
+
+
+
+
+.directlog {
+    display: flex;
+    width: 4.51rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    /* margin-top: .28rem; */
+    /* margin-bottom: .50rem; */
+}
+
+.directlog img {
+    display: block;
+}
+
+.line1-1 {
+    margin-left: -0.55rem;
+    margin-right: .46rem;
+}
+
+.line1-2 {
+    margin-right: .46rem;
+}
+
+.line1-3 {
+    margin-right: .46rem;
+}
+
+.class-circle {
+    font-size: 0.22rem;
+    color: #eee;
+}
+
+.class-span {
+    position: relative;
+    left: .1rem;
+    top: -0.65rem;
+}
+
+.finish .class-span {
+    left: .19rem;
+}
+
+.finish .class-span-2 {
+    left: .26rem;
+    font-size: .25rem;
+}
+
+.finish .class-span {
+    top: -.75rem;
+}
+
+.isolator {
+    width: 100%;
+    height: .18rem;
+    background-color: rgb(248,248,248);
+    border: 0.01rem solid rgb(233, 233, 233);
+    /* margin-bottom: .2rem; */
+}
+
+.big-title {
+    width: 100%;
+    background: #ff7a46;
+    color: #eee;
+    font-size: .26rem;
+    padding-top: .22rem;
+    padding-bottom: .22rem;
+    padding-left: .22rem;
+}
+
+
+/* 问题开始 */
+
+.question-1 {
+    font-size: .26rem;
+    color: #4e4e4e;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    padding-left: .4rem;
+
+    /* vertical-align: middle; */
+}
+
+.question-1 img {
+    vertical-align: middle;
+}
+
+.question-1 span {
+    vertical-align: middle;
+}
+
+.reason,.date,.result {
+    font-size: .24rem;
+    color: #4e4e4e;
+    padding-left: .4rem;
+}
+
+.reason :last-child,.result :last-child {
+    color: #757575;
+}
+
+.data-find :last-child,.data-solve :last-child {
+    color: #757575;
+}
+
+.data-find {
+    float: left;
+}
+
+.data-solve :first-child {
+    margin-left: .2rem;
+}
+
+.date {
+    padding: .23rem 0 .23rem .4rem;
+}
+
+.result {
+    padding-bottom: .23rem;
+}
+.question {
+    border-bottom: 0.01rem rgb(233, 233, 233) solid;
+}
+
+/* 工程细则开始 */
+
+
+.engineer-detail {
+    width: 100%;
+    /* background: #ff7a46; */
+    color: #2c2c2c;
+    font-size: .26rem;
+    padding-top: .22rem;
+    padding-bottom: .22rem;
+    padding-left: .22rem;
+    border-bottom: 0.01rem rgb(233, 233, 233) solid;  
+}
+
+.electricity {
+    font-size: .21rem;
+    color: #4e4e4e;
+}
+
+.electricity > div {
+    width: 2.87rem;
+    background: #e6e6e6;
+    margin-bottom: .05rem;
+    padding-left: .24rem;
+}
+
+
+/* .electricity div :last-child {
+    vertical-align: middle;
+} */
+
+.e-rebuild {
+    background: #e6e6e6;
+    width: 2.87rem;
+}
+
+
+.e-1 div {
+    float: right;
+    background: #fff;
+    padding: .07rem .16rem .07rem .16rem;
+    margin: .03rem .03rem .03rem 0;
+}
+
+.e-1 span {
+    float: left;
+    padding-top: .15rem;
+}
