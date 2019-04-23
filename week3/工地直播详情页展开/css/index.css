@@ -276,15 +276,31 @@ header .login {
     padding-top: .22rem;
     padding-bottom: .22rem;
     padding-left: .22rem;
-    border-bottom: 0.01rem rgb(233, 233, 233) solid;  
+    border-bottom: 0.01rem rgb(233, 233, 233) solid;
+}
+
+.detail-wrapper {
+    padding-bottom: .3rem;  
+
 }
 
 .electricity {
     font-size: .21rem;
     color: #4e4e4e;
+    padding: .24rem 0 0 .23rem;
+    /* width: 2.87rem; */
+    float: left;
 }
 
-.electricity > div {
+.water {
+    font-size: .21rem;
+    color: #4e4e4e;
+    padding: .24rem .24rem 0 0;
+    /* width: 2.87rem; */
+    float: right;
+}
+
+.electricity > div, .water > div {
     width: 2.87rem;
     background: #e6e6e6;
     margin-bottom: .05rem;
@@ -296,9 +312,14 @@ header .login {
     vertical-align: middle;
 } */
 
-.e-rebuild {
+#e-rebuild,#w-rebuild {
     background: #e6e6e6;
     width: 2.87rem;
+    padding-top: .15rem;
+    padding-bottom: .15rem;
+    text-align: center;
+    padding-left: 0;
+
 }
 
 
@@ -312,4 +333,18 @@ header .login {
 .e-1 span {
     float: left;
     padding-top: .15rem;
+}
+
+/* 注意事项开始 */
+
+.caution {
+    font-size: .21rem;
+    color: #4e4e4e;
+    margin: .28rem 0 .13rem 0;
+}
+
+.caution span {
+    display: block;
+    padding-left: .22rem;
+    padding-bottom: .15rem;
 }
