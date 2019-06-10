@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+html,body {
+    /* font-size: calc(100vw / 6.4);*/
+    font-size: 100px;
+    line-height: 1.2;
+    background-color: #fff;
+    min-width: 6.40rem;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
