@@ -33,7 +33,7 @@ header .login {
     /* height: 2.92rem; */
     background: url(../images/bg3.png) no-repeat;
     width: 6.4rem;
-    height: 4.25rem;
+    height: 4.16rem;
     position: relative;
     top: -.79rem;;
     z-index: 1;
@@ -48,12 +48,30 @@ header .login {
 
 }
 
+#six ,#numberInspect {
+    font-size: .7267rem;
+    font-family: 'Fixedsys';
+}
+
+.bigTitle {
+    font-size: .4351rem;
+}
+
 .cover .span-group {
     float: left;
     font-size: .193rem;
     color: #fff;
     margin-top: 1.09rem;
-    margin-left: .94rem;
+    margin-left: .54rem;
+}
+
+#span-group2 {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+#numberInspect {
+    margin-left: .2rem;
 }
 
 .span-group .logo3{
@@ -72,36 +90,110 @@ header .login {
 
 .first {
     position: relative;
+    left: 0.45rem;
+    font-size: .193rem;
+
 }
+
+.div-img {
+    float: left;
+}
+
 .first .cir-word {
     position: absolute;
-    top: 20px;
-    
+    top: .2rem;
+    color: #eee;
+    text-align: center;
+    left: .13rem;
+}
+
+.first .first-span {
+
+}
+
+.first .first-span-1 {
+    font-size: .3rem;
 }
 
 
+.first .first-span-2 {
+    text-align: center;
+}
+
 .first .right-word {
+    float: right;
+    margin-right: 1.8rem;
+    margin-top: 0.24rem;
+    color: #ff5858;
+    font-size: .3rem;
+}
+
+.second-span-2 {
+    color: #707070;
+    font-size: .18rem;
+}
+
+/* trans line 1st here  */
+
+.trans-img img {
+    float: left;
+    margin-left: .9rem;
+    margin-top: -.4rem;
+}
+
+/* 2nd start */
+.second .div-img {
+    float: right;
+    margin-right: .45rem;
+    margin-top: -0.5rem; 
+}
+
+.second {
+    position: relative;
+    font-size: .193rem;
+}
+
+.second .cir-word {
+    position: absolute;
+    top: -.24rem;
+    color: #eee;
+    text-align: center;
+    right: .6rem;
+}
+
+.second .right-word {
+    float: right;
+    margin-right: 1.8rem;
+    margin-top: -.9rem;
+    color: #ff5858;
+    font-size: .3rem;
+}
+
+
+.er-span-2 {
+    color: #707070;
+    font-size: .18rem;
+    float: right;
+}
+
+.er-span-1 {
     float: right;
 }
 
 
-
-
-
-
-
-
-
-.tel {
-    margin-top: .25rem;
-    margin-left: .3rem;
-
+.sp {
+    top: -.4rem;
 }
 
-.location {
-    margin-top: .25rem;
-    margin-left: .3rem;
+#sp-right {
+    margin-top: -.8rem;
+}
 
+/* bottom start */
+
+.bottom {
+    margin-top: .2rem;
+    margin-bottom: -.2rem;
 }
 
 .company :first-child {
